@@ -12,3 +12,9 @@ def main():
 # This is the standard boilerplate that calls the main() function.
 if __name__ == '__main__':
   main()
+
+  def secondFunction():
+    eggs = 12
+    return eggs
+          
+  print secondFunction()
