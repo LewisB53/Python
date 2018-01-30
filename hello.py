@@ -19,6 +19,13 @@ if __name__ == '__main__':
           
   print secondFunction()
 
-  """say waht
+  """say what!?
   another line thats cool
   wow"""
+
+  from datetime import datetime
+  now = datetime.now()
+
+  print '%s/%s/%s' % (now.year, now.month, now.day)
+
+  print '%s:%s:%s' % (now.hour, now.minute, now.second)
