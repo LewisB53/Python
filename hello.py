@@ -29,3 +29,17 @@ if __name__ == '__main__':
   print '%s/%s/%s' % (now.year, now.month, now.day)
 
   print '%s:%s:%s' % (now.hour, now.minute, now.second)
+
+  def usingIf():
+      if 5>1 or 4>1:    # Start coding here!
+          print "this"
+          return True
+      elif 1 != 1:
+          print "that"
+          return False
+      else: 
+          print "the other"
+      return True
+
+  usingIf()
+
